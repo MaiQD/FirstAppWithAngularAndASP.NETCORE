@@ -1,1 +1,2 @@
-# FirstAppWithAngularAndASP.NETCORE
+# The CLI use in project
+
