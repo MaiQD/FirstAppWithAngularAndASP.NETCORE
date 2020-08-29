@@ -1,0 +1,22 @@
+<blockquote class="blockquote">
+    <p class="mb-0">Bank Accounts</p>
+    <footer class="blockquote-footer"> <cite title="Source Title">using inline edit</cite></footer>
+</blockquote>
+<div class="grid-table">
+    <div class="thead">
+        <div class="tr">
+            <div class="td">Account No.</div>
+            <div class="td">Account Holder</div>
+            <div class="td">Bank</div>
+            <div class="td">IFSC</div>
+        </div>
+    </div>
+    <div class="tbody">
+        <form class="tr" *ngFor="let fg of bankAccountForm.controls" [formGroup]="fg">
+            <div class="td"><input class="form-control" formControlName="BankAccountId"></div>
+            <div class="td"><input class="form-control" formControlName="AccountHolder"></div>
+            <div class="td"><input class="form-control" formControlName="BankID"></div>
+            <div class="td"><input class="form-control" formControlName="IFSC"></div>
+        </form>
+    </div>
+</div>
