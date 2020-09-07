@@ -13,4 +13,5 @@
 - Tạo Service
     - **ng g s shared/bank**
     - **ng g s shared/bank-account**
-    2
+- Cài thư viện font aweasome 
+    - **npm i --save @fortawesome/fontawesome-free**

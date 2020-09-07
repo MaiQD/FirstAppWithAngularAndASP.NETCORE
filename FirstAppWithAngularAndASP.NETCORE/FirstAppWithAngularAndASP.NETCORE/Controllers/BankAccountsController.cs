@@ -37,7 +37,6 @@ namespace FirstAppWithAngularAndASP.NETCORE.Controllers
             {
                 return NotFound();
             }
-
             return bankAccount;
         }
 

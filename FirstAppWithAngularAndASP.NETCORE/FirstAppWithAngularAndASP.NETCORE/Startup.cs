@@ -38,7 +38,7 @@ namespace FirstAppWithAngularAndASP.NETCORE
 			{
 				app.UseDeveloperExceptionPage();
 			}
-
+			app.UseCors(options => options.WithOrigins("http://localhost:4200/").AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 			app.UseMvc();
 		}
 	}
